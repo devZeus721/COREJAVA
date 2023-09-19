@@ -1,4 +1,4 @@
-Alpha Pattern
+/*Alpha Pattern*/
 
 import java.util.*;
 public class Solution {
