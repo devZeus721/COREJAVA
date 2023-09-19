@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-class AreaOFRect {
+class AreaOFRect{
 
     public static void main(String args[]) {
 
         // Write code here
 
-        Scanner sc=new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            int length=sc.nextInt();
 
-        int length=sc.nextInt();
+            int breadth=sc.nextInt();
 
-        int breadth=sc.nextInt();
+            int area= (length*breadth);
 
-        int area= (length*breadth);
-
-        System.out.println(area);   
+            System.out.println(area);
+        }   
 
     }
 
