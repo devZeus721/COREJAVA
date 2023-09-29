@@ -7,7 +7,7 @@ class AreaOFRect{
 
             int breadth=sc.nextInt();
 
-            int area= (length*breadth);
+            int area = (length*breadth);
 
             System.out.println(area);
         }   
