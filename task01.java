@@ -1,5 +1,5 @@
 public class task01 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {    int var1 = 34;
         int var2 = 23;
 
