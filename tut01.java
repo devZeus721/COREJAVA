@@ -1,4 +1,4 @@
-//Variables and Types
+//Variables and Types-imp-basics
 /*
 Here is a list of all primitives in Java:
     byte (number, 1 byte)
@@ -21,8 +21,11 @@ String s1 = new String("Who let the dogs out?");        // String object stored 
 String s2 = "Who who who who!";                         // String literal stored in String pool
 // Java defined the operator + on strings to concatenate:
 String s3 = s1 + s2;
-
- */
+There is no operator overloading in Java but there is the exception that proves the rule - string is the only class where operator overloading is supported.
+ You can also concat string to primitives:-
+int num = 5;
+String s = "I have " + num + " cookies"; //Be sure not to use "" with primitives.
+*/
 
 //Program
 public class tut01 {
@@ -41,6 +44,9 @@ public class tut01 {
         System.out.println(t1);
         String t2 = " Bravo!";
         System.out.println(t1 + t2);
+        int time = 7;
+        String tim = "Now time is " + time + " pm.";
+        System.out.println(tim);
     }
 }
 
