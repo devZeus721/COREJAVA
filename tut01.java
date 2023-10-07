@@ -14,5 +14,9 @@ public class tut01 {
     public static void main(String[] args) {
         int _myNum = 497;
         System.out.println(_myNum);
+        float start = 7.7f;//casting float
+        System.out.println(start);
+        float start2 = (float)49.77;//casting another way
+        System.out.println(start2);
     }
 }
