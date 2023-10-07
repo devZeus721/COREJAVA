@@ -10,6 +10,12 @@ Here is a list of all primitives in Java:
     char (a character, 2 bytes)
     boolean (true or false, 1 byte)
 * */
+/*Characters and Strings
+In Java, a character is it's own type and it's not simply a number, so it's not common to put an ascii value in it, there is a special syntax for chars:
+char c = 'g';
+String is not a primitive. It's a real type, but Java has special treatment for String.
+ */
+//Program
 public class tut01 {
     public static void main(String[] args) {
         int _myNum = 497;
@@ -20,5 +26,8 @@ public class tut01 {
         System.out.println(start2);
         double dou = 42.7;
         System.out.println(dou);
+        char R = 'z';
+        System.out.println(R);
     }
 }
+
