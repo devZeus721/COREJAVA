@@ -11,10 +11,19 @@ Here is a list of all primitives in Java:
     boolean (true or false, 1 byte)
 * */
 /*Characters and Strings
-In Java, a character is it's own type and it's not simply a number, so it's not common to put an ascii value in it, there is a special syntax for chars:
+In Java, a character is its own type and it's not simply a number, so it's not common to put an ascii value in it, there is a special syntax for chars:
 char c = 'g';
 String is not a primitive. It's a real type, but Java has special treatment for String.
+Here are some ways to use a string:
+// Create a string with a constructor
+String s1 = new String("Who let the dogs out?");        // String object stored in heap memory
+// Just using "" creates a string, so no need to write it the previous way.
+String s2 = "Who who who who!";                         // String literal stored in String pool
+// Java defined the operator + on strings to concatenate:
+String s3 = s1 + s2;
+
  */
+
 //Program
 public class tut01 {
     public static void main(String[] args) {
@@ -28,6 +37,8 @@ public class tut01 {
         System.out.println(dou);
         char R = 'z';
         System.out.println(R);
+        String t1 = "Getting started with CORE_JAVA";
+        System.out.println(t1);
     }
 }
 
