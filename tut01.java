@@ -45,11 +45,7 @@ public class tut01 {
         String t2 = " Bravo!";
         System.out.println(t1 + t2);
         int time = 7;
-<<<<<<< HEAD
         String tim = "Now time is " + time + " pm.";
-=======
-        String tim = "Now time is " + time + "pm.";
->>>>>>> 050980e4cfe6c323177a5bbaabbfdf925d4859c5
         System.out.println(tim);
     }
 }
