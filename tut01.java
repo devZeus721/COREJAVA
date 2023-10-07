@@ -18,5 +18,7 @@ public class tut01 {
         System.out.println(start);
         float start2 = (float)49.77;//casting another way
         System.out.println(start2);
+        double dou = 42.7;
+        System.out.println(dou);
     }
 }
