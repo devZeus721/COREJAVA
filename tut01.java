@@ -26,7 +26,11 @@ There is no operator overloading in Java but there is the exception that proves 
 int num = 5;
 String s = "I have " + num + " cookies"; //Be sure not to use "" with primitives.
 */
-
+/*
+Boolean Exp
+Every comparison operator in java will return the type boolean.
+Unlike other languages, it only accepts two special values: true or false.
+* * */
 //Program
 public class tut01 {
     public static void main(String[] args) {
@@ -47,6 +51,9 @@ public class tut01 {
         int time = 7;
         String tim = "Now time is " + time + " pm.";
         System.out.println(tim);
+        boolean toBe = false;
+        boolean b = toBe || !toBe;// || is logical OR
+        if (b) System.out.println(toBe);
     }
 }
 
