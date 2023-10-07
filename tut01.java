@@ -37,8 +37,10 @@ public class tut01 {
         System.out.println(dou);
         char R = 'z';
         System.out.println(R);
-        String t1 = "Getting started with CORE_JAVA";
+        String t1 = "Getting started with CORE_JAVA,";
         System.out.println(t1);
+        String t2 = " Bravo!";
+        System.out.println(t1 + t2);
     }
 }
 
