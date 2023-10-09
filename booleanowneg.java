@@ -4,7 +4,7 @@ public class booleanowneg {
         b = true;
         /*boolean toBe = false;
         b = toBe || !toBe;
-        if (b) System.out.println(toBe);*/
+        if (b) System.out.println(toBe); */
         boolean d = true;
         boolean c = false;
         boolean a = (d) && (c);            //The following line will give an error
