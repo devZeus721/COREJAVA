@@ -13,7 +13,7 @@ public class tu02 {
         if (b) {
             System.out.println("It's true! No problem.");
         }
-        if (d) {
+        if (d) {                                            //if-else Working in java
             System.out.println("It's true! No problem.");
         } else
             System.out.println("It's WRONG! Do Again");
