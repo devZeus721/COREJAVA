@@ -18,6 +18,21 @@ public class tu02 {
             System.out.println("It's true! No problem.");
         } else
             System.out.println("It's WRONG! Do Again");
+
+        //Boolean operators
+        int x = 7;
+        int y = 6;
+        boolean result;
+        result = x < y; // true
+        result = x > y; // false
+        result = x <= 7; // a smaller or equal to 4 - true
+        result = y >= 6; // b bigger or equal to 6 - false
+        result = x == y; // a equal to b - false
+        result = x != y; // a is not equal to b - true
+        result = x > y || x < y; // Logical or - true
+        result = 5 < x && x < 8; // Logical and - true
+        result = !result; // Logical not - false
+
     }
 
     }
