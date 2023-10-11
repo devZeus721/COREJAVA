@@ -1,6 +1,8 @@
 //Conditionals
 //If-else got started
 /*
+The if - else statements doesn't have to be in several lines with {}, if can be used in one line, or without the {},
+        for a single line stat-ment.
 Java uses boolean variables to evaluate conditions.
 The boolean values true and false are returned when an expression is compared or evaluated.
  */
@@ -22,16 +24,32 @@ public class tu02 {
         //Boolean operators
         int x = 7;
         int y = 6;
-        boolean result;
-        result = x < y; // true
-        result = x > y; // false
-        result = x <= 7; // a smaller or equal to 4 - true
-        result = y >= 6; // b bigger or equal to 6 - false
-        result = x == y; // a equal to b - false
-        result = x != y; // a is not equal to b - true
-        result = x > y || x < y; // Logical or - true
-        result = 5 < x && x < 8; // Logical and - true
-        result = !result; // Logical not - false
+        for(int i=0;i<9;i++) { //for loop also initialised
+            boolean resulti;
+            resulti = x < y;
+            System.out.println(resulti);// true
+            resulti = x > y; // false
+            System.out.println(resulti);
+            resulti = x <= 7; // a smaller or equal to 7 - true
+            System.out.println(resulti);
+            resulti = y >= 6; // b bigger or equal to 6 - false
+            System.out.println(resulti);
+            resulti = x == y; // a equal to b - false
+            System.out.println(resulti);
+            resulti = x != y; // x is not equal to y - true
+            System.out.println(resulti);
+            resulti = x > y || x < y; // Logical or - true
+            System.out.println(resulti);
+            resulti = 5 < x && x < 8; // Logical and - true
+            System.out.println(resulti);
+            resulti = !resulti; // Logical not - false
+            System.out.println(resulti);
+        }
+        int l = 49,m = 42,s = 56,t = 56;
+        if (l == m && s == t)
+            System.out.println("Another line Wow!");
+        else
+            System.out.println("Double Rainbow!");
 
     }
 
