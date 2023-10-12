@@ -66,6 +66,22 @@ public class tu02 {
             res21 = 8;
         }
         System.out.println(res21);
+        //== and equals
+
+        /*The operator == works a bit different on objects than on primitives.
+         When we are using objects and want to check if they are equal,
+         the operator == will say if they are the same, if you want to check if they are logically equal,
+         you should use the equals method on the object.**/
+        //For example:
+        String ab = new String("Wow");
+        String bb = new String("Wow");
+        String sameA = ab;
+        boolean r1 = ab == bb;      // This is false, since a and b are not the same object
+        boolean r2 = ab.equals(bb); // This is true, since a and b are logically equals
+        boolean r3 = ab == sameA;  // This is true, since a and sameA are really the same object
+        System.out.println(r1);
+        System.out.println(r2);
+        System.out.println(r3);
     }
 
     }
