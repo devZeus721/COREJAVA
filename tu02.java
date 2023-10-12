@@ -51,6 +51,21 @@ public class tu02 {
         else
             System.out.println("Double Rainbow!");
 
+        //The ugly side of if
+        //
+        //There is A another way to write a one line if - else statement by using the operator ?
+        int aa = 4;
+        int result = aa == 4 ? 1 : 8;
+
+        // result will be 1
+        // This is equivalent to
+        int res21;
+        if (aa == 4) {
+            res21 = 1;
+        } else {
+            res21 = 8;
+        }
+        System.out.println(res21);
     }
 
     }
