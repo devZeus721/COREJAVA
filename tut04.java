@@ -18,10 +18,10 @@
         /*I always like to say that arguments to Java methods are passed by value, although some might disagree with my choice of words,
          I find it the best way to explain and understand how it works exactly.
          By value means that arguments are copied when the method runs. Let's look at an example.
-publi   c void bar(int num1, int num2) {
+        public void bar(int num1, int num2) {
         ...
         }
-        Here is a another place in the code, where bar is called
+        Here is aA another place in the code, where bar is called
         int a = 3;
         int b = 5;
         bar(a, b);
@@ -30,9 +30,24 @@ publi   c void bar(int num1, int num2) {
         int num1 = a;
         int num2 = b;
         And only then the rest of the method is run.
+        And only then the rest of the method is run.
+
+    This means that a value get copied to num1 and b value get copied to num2.
+    Changing the values of num1 and num2 will not affect a and b.
+    If the arguments were objects, the rules remain the same, but it acts a bit differently.
+    Here is aA an example:
+                    public void bar2(Student s1, Student s2) {
+                        ...
+                        }
+
+
 */
 public class tut04 {
-    public static void main(String[] args){
-
+            public class Stud {
+        public void bar2(Stud s1, Stud s2) {
+            Stud joe = new Stud("joe");
+            Stud jack = new Stud("jack");
+            bar2(joe, jack);
+        }
     }
 }
