@@ -40,7 +40,9 @@
                         ...
                         }
 
-
+Student joe = new Student("joe");
+Student jack = new Student("jack");
+bar2(joe, jack);
 */
 public class tut04 {
                 public void Stud(String Stud) {
