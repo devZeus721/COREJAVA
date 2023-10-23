@@ -16,12 +16,20 @@ public class Student {
 
 * */
 public class tut04b {
+
     private String name;
+
     public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
+        return name;}
+        public void setName(String name){
+            this.name = name;}
+
+            tut04b t = new tut04b();
+            t.setName("Danielle");
+            String name2 = t.getName();
+
+            tut04b.setName("Bob"); // Will not work!
+            tut04b.getName(); // Will not work!
         }
+
 
