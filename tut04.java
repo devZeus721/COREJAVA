@@ -47,10 +47,5 @@ bar2(joe, jack);
 public class tut04 {
                 public void Stud(String Stud) {
                 }
-                public void bar2(Stud s1, Stud s2) {
-            Stud joe = new Stud("joe");
-            Stud jack = new Stud("jack");
-            bar2(joe, jack);
-            }
         }
 

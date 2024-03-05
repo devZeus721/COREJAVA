@@ -24,12 +24,9 @@ public class tut04b {
         public void setName(String name){
             this.name = name;}
 
-            tut04b t = new tut04b();
-            t.setName("Danielle");
-            String name2 = t.getName();
+            tut04b term = new tut04b();
+            String name1 = term.getName();
 
-            tut04b.setName("Bob"); // Will not work!
-            tut04b.getName(); // Will not work!
         }
 
 
