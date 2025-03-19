@@ -1,7 +1,6 @@
 public class booleanowneg {
     public static void main(String[] args) {
-        boolean b = false;
-        b = true;
+        boolean b = true;
         /*boolean toBe = false;
         b = toBe || !toBe;
         if (b) System.out.println(toBe); */
