@@ -1,3 +1,4 @@
+package s3;
 import javax.swing.*;
 
 public class testing {
@@ -8,7 +9,7 @@ public class testing {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Create a JButton
-        JButton button = new JButton("Click MeOperation Success");
+        JButton button = new JButton("Click Me Operation Success");
         
 
         // Add the button to the frame
