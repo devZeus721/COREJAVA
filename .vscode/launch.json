@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "NumberPattern",
+            "request": "launch",
+            "mainClass": "NumberPattern",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCal",
+            "request": "launch",
+            "mainClass": "SimpleCal",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "booleanowneg",
+            "request": "launch",
+            "mainClass": "booleanowneg",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "ex02",
+            "request": "launch",
+            "mainClass": "ex02",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "ex04b",
+            "request": "launch",
+            "mainClass": "ex04b",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "LMtest",
+            "request": "launch",
+            "mainClass": "s3.LMtest",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "testing",
+            "request": "launch",
+            "mainClass": "s3.testing",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "starter",
+            "request": "launch",
+            "mainClass": "starter",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "task01",
+            "request": "launch",
+            "mainClass": "task01",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "tu02",
+            "request": "launch",
+            "mainClass": "tu02",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "tut01",
+            "request": "launch",
+            "mainClass": "tut01",
+            "projectName": "COREJAVA_34edc533"
+        },
+        {
+            "type": "java",
+            "name": "tut03",
+            "request": "launch",
+            "mainClass": "tut03",
+            "projectName": "COREJAVA_34edc533"
+        }
+    ]
+}
